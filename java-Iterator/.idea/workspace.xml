@@ -105,8 +105,8 @@
       <file leaf-file-name="Code22.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="185">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -234,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,9 +282,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,16 +496,16 @@
       <workItem from="1567520418013" duration="597000" />
       <workItem from="1567823604995" duration="1611000" />
       <workItem from="1567835020317" duration="8830000" />
-      <workItem from="1567916144416" duration="138000" />
+      <workItem from="1567916144416" duration="529000" />
+      <workItem from="1567917667226" duration="565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469247000" />
+    <option name="totallyTimeSpent" value="470203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -520,7 +520,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.52922076" visible="true" weight="0.20040214" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.52922076" visible="true" weight="0.20308311" />
       <window_info anchor="right" x="1666" y="76" width="245" height="918" id="Database" order="8" type="WINDOWED" weight="0.1337953" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.5105042" side_tool="true" weight="0.20844504" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -528,14 +528,14 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41666666" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.509887" side_tool="true" visible="true" weight="0.20844504" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.509887" side_tool="true" visible="true" weight="0.20844504" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32768363" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1341,8 +1341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="185">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
