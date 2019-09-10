@@ -5,6 +5,12 @@ public class Code5 {
         sumNN(new int[]{2, 1, 5, 3, 6, 4, 8, 9, 7});
     }
 
+    /**
+     * 最长递增子序列二分法
+     * 时间复杂度O(N)
+     * @param arr
+     * @return
+     */
     public static int getSum(int[] arr) {
 
         int[] ends = new int[arr.length];
@@ -57,6 +63,12 @@ public class Code5 {
         System.out.println(dp);
     }
 
+    /**
+     * 最长递增子序列动态规划
+     * O(N^2)
+     * @param arr
+     * @return
+     */
     public static int[] sumNN(int[] arr) {
         int[] ends = new int[arr.length];
         int[] dp = new int[arr.length];

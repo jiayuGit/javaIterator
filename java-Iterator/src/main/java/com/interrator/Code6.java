@@ -10,6 +10,13 @@ public class Code6 {
         byte b = -128;
         System.out.println(Integer.MAX_VALUE-(b>>>1));
     }
+
+    /**
+     * 矩阵最大面积
+     * 时间复杂度O(N*M)
+     * @param arr
+     * @return
+     */
     public static int maxSum(int[][] arr){
         int[][] por = new int[arr.length][arr[0].length];
         for (int i = 0 ;i<arr[0].length;i++){
@@ -56,6 +63,14 @@ public class Code6 {
         }
         return max;
     }
+
+    /**
+     * 找出柱状图的最大矩阵面积
+     * 时间复杂度O(N)
+     * 加入栈一次,取出一次,执行2N次
+     * @param dp
+     * @return
+     */
     public static int maxSS(int[][] dp){
         Stack<Integer> stack =new Stack();
         int max = Integer.MIN_VALUE;
