@@ -10,6 +10,13 @@ public class Code8 {
         System.out.println("---------------------");
         prinA(arr,9);
     }
+
+    /**
+     * 数组中三个数的和为国定值,且不重复打印
+     * 时间复杂度O(N^2)
+     * @param arr
+     * @param k
+     */
     public static void prinA(int[] arr,int k){
         for(int i = 0;i<arr.length;i++){
             if(i==0||arr[i]!=arr[i-1]){
@@ -18,6 +25,15 @@ public class Code8 {
         }
     }
 
+    /**
+     * 数组中两个数的和为固定值,且不重复打印
+     * 时间复杂度O(N)
+     * @param arr
+     * @param i
+     * @param left
+     * @param right
+     * @param k
+     */
     private static void priA(int[] arr, int i, int left, int right, int k) {
         while(left<right){
             if(arr[left]+arr[right]>k){

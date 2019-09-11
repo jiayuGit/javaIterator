@@ -7,6 +7,11 @@ public class Code7 {
                                     {9,10,11,12}};
         prinArr(arr);
     }
+
+    /**
+     * Z字型打印数组
+     * @param arr
+     */
     public static void  prinArr(int[][] arr){
         int lx = 0;
         int ly = 0;
