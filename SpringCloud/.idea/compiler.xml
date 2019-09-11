@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="ribbon-consumer" />
+        <module name="eureka-server1" />
+        <module name="eureka-peer" />
+        <module name="SpringCloud" />
+        <module name="spring-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-peer" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server1" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="spring-client" target="1.8" />
+      <module name="SpringCloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloud" options="-parameters" />
+      <module name="eureka-peer" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server1" options="-parameters" />
+      <module name="ribbon-consumer" options="-parameters" />
+      <module name="spring-client" options="-parameters" />
+    </option>
+  </component>
+</project>
