@@ -4,14 +4,28 @@ public class Code9 {
     public static void main(String[] ags) {
         int[] arr = new int[]{1, 3, 5, 2, 4, 6};
         setArr(arr);
-        System.out.println(arr);
+        for (int a:arr
+             ) {
+            System.out.print(a+" ");
+        }
+        System.out.println();
         System.out.println(getSum(arr, 0, arr.length - 1));
-        System.out.println(arr);
+        for (int a:arr
+        ) {
+            System.out.print(a+" ");
+        }
+        System.out.println();
     }
+
+    /**
+     * 数组中有不重复乱序的数,排序后可以变成连续的1-n
+     * 时间复杂度O(N)
+     * @param arr
+     */
     public static void setArr(int[] arr){
         int num = 0;
         for(int i = 0;i<arr.length-1;i++){
-            while(i+1!=arr[i]){
+            while(i+1!=arr[i]){//不对应序号的值放到对应的数组位置上,直到出现对应的数和下标时
                 swap(arr,i,arr[i]-1);
             }
         }
@@ -24,6 +38,15 @@ public class Code9 {
         arr[i]=arr[i]^arr[i1];
     }
 
+    /**
+     * 求数组中正序序的个数
+     * 归并排序思路
+     * 时间复杂度O(N*log(N))
+     * @param arr
+     * @param l
+     * @param r
+     * @return
+     */
     public static int getSum(int[] arr, int l, int r) {
         if (l == r) {
             return 0;
@@ -35,6 +58,15 @@ public class Code9 {
         return getSum(arr, l, m) + getSum(arr, m + 1, r) + addArr(arr, l, m, r);
     }
 
+    /**
+     * 归并两个数组段
+     * 时间复杂度O(N)
+     * @param arr
+     * @param l
+     * @param m
+     * @param r
+     * @return
+     */
     private static int addArr(int[] arr, int l, int m, int r) {
         int sum = 0;
         int left = l;
