@@ -6,8 +6,18 @@ public class Code10 {
         int[] arr = new int[]{8,6,1,-3,4,9,-8,2,4};
         //setArrHeap(arr);
         heap(arr);
-        System.out.println(arr);
+        for (int a:arr
+        ) {
+            System.out.print(a+" ");
+        }
+        System.out.println();
     }
+
+    /**
+     * 堆排序
+     * 时间复杂度(N*log(N))
+     * @param arr
+     */
     public static void heap(int[] arr){
         int s = arr.length/2-1;
         while(s>=0){
@@ -21,6 +31,13 @@ public class Code10 {
         }
     }
 
+    /**
+     * 制定节点下落,直到平衡点
+     * 时间复杂度O(log(N))
+     * @param arr
+     * @param i
+     * @param length
+     */
     private static void set(int[] arr, int i, int length) {
         int res = arr[i];
         int m = i*2+1;
