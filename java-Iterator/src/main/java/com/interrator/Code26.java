@@ -1,5 +1,6 @@
 package com.interrator;
 
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -9,8 +10,13 @@ public class Code26 {
 
     }
 
-
-
+    /**
+     * 求在数组中累加和的最长子序列
+     * 时间复杂度O(N)
+     * @param arr
+     * @param k
+     * @return
+     */
     public static int getMaxArr(int[] arr, int k) {
         int len = 0;
         int left = 0;//滑动窗口左侧
@@ -37,4 +43,6 @@ public class Code26 {
         return len;
 
     }
+
+
 }
