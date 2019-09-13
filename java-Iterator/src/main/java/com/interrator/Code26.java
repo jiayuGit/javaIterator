@@ -11,7 +11,7 @@ public class Code26 {
     }
 
     /**
-     * 求在数组中累加和的最长子序列
+     * 求在正数数组中累加和的最长子序列
      * 时间复杂度O(N)
      * @param arr
      * @param k
