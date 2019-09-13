@@ -13,19 +13,25 @@ public class Code11 {
             System.out.print(s);
         }
     }
+
+    /**
+     * 把字符串中的三类字符分成三份,左中右个分成相同的字符
+     * 时间复杂度O(N)
+     * @param ss
+     */
     public static void leftUniString(String[] ss){
         if(ss==null||ss.length<2){
             return;
         }
-        int left = 0;
+        int left = 0;//第二组字符的最左边界
         int right = ss.length-1;
         for(int i = 0;i<right;){
             if(ss[i]=="红"){
-                swap(ss,left++,i++);
+                swap(ss,left++,i++);//把当前位置的字符换到第二组的最左边界,且下标都加一
             }else if(ss[i]=="绿"){
-                swap(ss,right--,i);
+                swap(ss,right--,i);//把当前位置的字符换到第二组的最右边界,且当前下标加一,二组的最右边界减一
             }else {
-                i++;
+                i++;//符合第二组的值当前位置加一
             }
         }
     }
