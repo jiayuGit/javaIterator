@@ -10,6 +10,7 @@ public class Code12 {
 
     /**
      * 往固定大小的容器里随机放入有序的数,在超过容器容量时,所有数被放入容器的概率一样
+     * 时间复杂度O(N)
      * @param k
      * @param max
      * @return
