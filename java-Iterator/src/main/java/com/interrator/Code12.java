@@ -8,6 +8,13 @@ public class Code12 {
             System.out.print(a+" ");
         }
     }
+
+    /**
+     * 往固定大小的容器里随机放入有序的数,在超过容器容量时,所有数被放入容器的概率一样
+     * @param k
+     * @param max
+     * @return
+     */
     public static int[] bbb(int k,int max){
         if(k<1||max<1){
             return null;
@@ -27,6 +34,19 @@ public class Code12 {
     public static int aaa(int a){
         return (int)(Math.random()*a+1);
     }
+
+    /**
+     * 点x,y是否在三角形内
+     * @param x1
+     * @param y1
+     * @param x2
+     * @param y2
+     * @param x3
+     * @param y3
+     * @param x
+     * @param y
+     * @return
+     */
     public static boolean sssss(double x1,double y1,double x2,double y2,double x3,double y3,double x,double y){
         if(zuo(x2-x1,y2-y1,x3-x1,y3-y1)<0){
             double temx = x2;
