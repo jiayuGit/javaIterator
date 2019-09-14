@@ -8,8 +8,6 @@ public class Code13 {
 
     public static void main(String[] ags){
         MyMap myMap = new MyMap();
-        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
-        concurrentHashMap.put("a","a");
         for (int i = 0;i<5;i++){
             myMap.put(i,i);
         }
@@ -21,7 +19,7 @@ public class Code13 {
             System.out.print(myMap.get(i)+" ");
         }
         System.out.println();
-        System.out.println(getAB(new int[]{2,7,3,1,1}));
+
         Pool pool = new Pool();
         for (int i = 0;i<5;i++){
             pool.insert(i);
@@ -30,6 +28,11 @@ public class Code13 {
             System.out.println(pool.getRandom());
         }
     }
+
+    /**
+     * 在容器中装入值,可以随机取出
+     * @param <K>
+     */
     static class Pool<K>{
         Map<K,Integer> indexMap = null;
         Map<Integer,K> keyMap = null;
@@ -60,27 +63,8 @@ public class Code13 {
             return delete(keyMap.get(m));
         }
     }
-    public static int getAB(int[] arr){
-        int[] ldp= new int[arr.length];
-        int[] rdp = new int[arr.length];
-        int max = Integer.MIN_VALUE;
-        for(int i = 0;i<arr.length;i++){
-            max = Math.max(max,arr[i]);
-            ldp[i]=max;
-        }
-        max = Integer.MIN_VALUE;
-        for(int i = arr.length-1;i>=0;i--){
-            max = Math.max(max,arr[i]);
-            rdp[i]=max;
-        }
-        max = Integer.MIN_VALUE;
-        for(int i = 0;i<arr.length-1;i++){
-            int res = ldp[i]-rdp[i+1];
-            res = res<0?-res:res;
-            max = Math.max(max,res);
-        }
-        return max;
-    }
+
+
     static class MyValue<T>{
         T value;
         long time;
@@ -89,6 +73,13 @@ public class Code13 {
             this.time=time;
         }
     }
+
+    /**
+     * 设计一个Map,可以有setAll方法
+     * 时间复杂度O(1)
+     * @param <K>
+     * @param <V>
+     */
     static class MyMap<K,V>{
         Map<K,MyValue<V>> map = null;
         MyValue<V> setAll = null;
