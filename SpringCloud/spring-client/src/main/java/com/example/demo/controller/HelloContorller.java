@@ -11,9 +11,12 @@ public class HelloContorller {
     @Autowired
     private DiscoveryClient client;
     @RequestMapping("/hello")
-    public String index(){
+    public String index() throws InterruptedException {
         String instance = client.description();
-        System.out.println("调用了");
+        double time = Math.random()*3000;
+        Thread.sleep((long) time);
+        System.out.println("调用了 时间->"+time);
         return "hello word"+instance;
     }
+
 }
