@@ -1,15 +1,23 @@
 package com.example.demo.service;
 
-import com.netflix.hystrix.HystrixCommandGroupKey;
+
+import com.alibaba.fastjson.JSONObject;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheKey;
 import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheRemove;
 import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheResult;
 import com.netflix.hystrix.contrib.javanica.command.AsyncResult;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
-import org.springframework.boot.web.servlet.ServletComponentScan;
+
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
+
 import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.Future;
@@ -58,8 +66,18 @@ public class HelloService {
 
     //@CacheRemove(commandKey = "getUserByIdCacheKey")
     @HystrixCommand
-    public void updata(SecurityProperties.User user){
-        restTemplate.postForObject("http:/USER-SERVICE/updataUser",user,SecurityProperties.User.class);
+    public String updata(SecurityProperties.User user){
+        MultiValueMap<String,String> map = new LinkedMultiValueMap<>();
+        map.add("name",user.getName());
+        map.add("password",user.getPassword());
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        JSONObject jsonObject =(JSONObject) JSONObject.toJSON(user);
+        System.out.println(jsonObject.toString());
+        //headers.add("content-type","application/x-www-form-urlencoded");
+        HttpEntity<MultiValueMap> entity = new HttpEntity(jsonObject,headers);
+        return restTemplate.postForEntity("http://USER-SERVICE/updata-user",entity,String.class).getBody();
     }
 
     public String helloFallback(){

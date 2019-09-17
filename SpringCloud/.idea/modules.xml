@@ -3,11 +3,24 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-peer/demo (1).iml" filepath="$PROJECT_DIR$/eureka-peer/demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/demo (2).iml" filepath="$PROJECT_DIR$/eureka-server/demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server1/demo (3).iml" filepath="$PROJECT_DIR$/eureka-server1/demo (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/demo (4).iml" filepath="$PROJECT_DIR$/ribbon-consumer/demo (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-client/demo (5).iml" filepath="$PROJECT_DIR$/spring-client/demo (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-clien-user/eureka-clien-user.iml" filepath="$PROJECT_DIR$/eureka-clien-user/eureka-clien-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-peer/eureka-peer.iml" filepath="$PROJECT_DIR$/eureka-peer/eureka-peer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feight-consumer/feight-consumer.iml" filepath="$PROJECT_DIR$/feight-consumer/feight-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer2/feign-consumer2.iml" filepath="$PROJECT_DIR$/feign-consumer2/feign-consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-client/spring-client.iml" filepath="$PROJECT_DIR$/spring-client/spring-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" filepath="$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" />
     </modules>
   </component>
 </project>

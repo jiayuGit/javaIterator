@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloContorller {
     @Autowired
     private DiscoveryClient client;
-    @RequestMapping("/hello")
+        @RequestMapping("/hello")
     public String index() throws InterruptedException {
         String instance = client.description();
         double time = Math.random()*3000;

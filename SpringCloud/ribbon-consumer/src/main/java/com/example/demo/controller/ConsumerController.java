@@ -26,12 +26,13 @@ public class ConsumerController {
     public SecurityProperties.User selectUserById(String id) throws ExecutionException, InterruptedException {
         return helloService.getUserById(id).get();//.get();
     }
-    @RequestMapping(value = "updata",method = RequestMethod.GET)
-    public String updata(long id){
+    @RequestMapping(value = "updata-user",method = RequestMethod.GET)
+    public String updata(String id){
         SecurityProperties.User user = new SecurityProperties.User();
+        user.setName(String.valueOf(id));
         user.setPassword(String.valueOf(id));
-        helloService.updata(user);
-        return "OK";
+
+        return helloService.updata(user);
 
     }
 }
