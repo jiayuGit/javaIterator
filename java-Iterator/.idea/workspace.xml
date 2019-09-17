@@ -1,41 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15c6e96d-c70f-4fc3-b514-6d5f2298e5a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interrator/Code33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interrator/Code34.java" afterDir="false" />
+    <list default="true" id="15c6e96d-c70f-4fc3-b514-6d5f2298e5a0" name="Default Changelist" comment="矩阵中能形成的最大正方形">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interrator/Code41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interrator/Code42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interrator/Code43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/BootStrapInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/SysConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/config/MybatisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/AppVersionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/BannerHomeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/ExchangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/StrategyCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/StrategyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/StrategyProduceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/SysExchangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/SysResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/SysRoleResMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/TeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/TeamStrategyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/UserStrategyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/mapper/WeChatGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/AbnormalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/BannerHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/StrategyCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/StrategyIncome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/StrategyOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/StrategyProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/SysExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/SysResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/SysRoleRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/SysRoleResRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/TeamStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/UserStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/dao/model/UserWechatGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/AliyunConfigPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/ProduceCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/ProduceIdPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/StatisticPv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/StatisticsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/StatisticsStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/StrategyOrderDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/pojo/excel/UserStrategyDataExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/AppVersionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/BannerHomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/ExchangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/StatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/StrategyCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/StrategyProduceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/StrategyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/TeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/TeamStrategyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/service/WeChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/OSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/RsaCryptoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/TokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/TransformationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/UserInfoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/ZipUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/excel/ExcelColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/util/excel/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/BannerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/ExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/StatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/StrategyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/control/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/intercept/CORSInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/intercept/PurviewInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/intercept/SignInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/BannerReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/ExchangeReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/LoginReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/ReqTableBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/ResourceReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/StrategyCategoryReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/StrategyProduceReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/TeamInsertReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/TeamReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/TeamSearchBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/TeamStrategyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/request/UserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/CurrentAndPrevlousResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/OutlineResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/ProduceCountResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/ProducePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/ResNodeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/ResourceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/ResponseBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/StatisticsResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/SysRoleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/SysUserResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/TeamStrategyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mars-bank-distribution/src/main/java/com/mars/bank/distribution/web/model/response/UserInfoResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/BootStrapInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/SysConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/config/MybatisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/AppVersionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/BannerHomeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/ExchangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/StrategyCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/StrategyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/StrategyProduceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/SysExchangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/SysResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/SysRoleResMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/TeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/TeamStrategyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/UserStrategyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/mapper/WeChatGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/AbnormalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/BannerHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/StrategyCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/StrategyIncome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/StrategyOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/StrategyProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/SysExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/SysResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/SysRoleRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/SysRoleResRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/TeamStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/UserStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/dao/model/UserWechatGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/AliyunConfigPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/ProduceCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/ProduceIdPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/StatisticPv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/StatisticsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/StatisticsStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/StrategyOrderDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/pojo/excel/UserStrategyDataExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/AppVersionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/BannerHomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/ExchangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/StatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/StrategyCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/StrategyProduceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/StrategyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/TeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/TeamStrategyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/service/WeChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/OSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/RsaCryptoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/TokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/TransformationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/UserInfoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/ZipUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/excel/ExcelColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/util/excel/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/BannerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/ExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/StatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/StrategyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/control/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/intercept/CORSInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/intercept/PurviewInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/intercept/SignInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/BannerReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/ExchangeReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/LoginReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/ReqTableBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/ResourceReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/StrategyCategoryReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/StrategyProduceReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/TeamInsertReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/TeamReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/TeamSearchBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/TeamStrategyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/request/UserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/CurrentAndPrevlousResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/OutlineResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/ProduceCountResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/ProducePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/ResNodeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/ResourceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/ResponseBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/StatisticsResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/SysRoleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/SysUserResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/TeamStrategyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/java/com/mars/bank/mgr/web/model/response/UserInfoResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/log4j2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/AppVersionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/BanerHomeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/ExchangeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/StrategyCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/StrategyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/StrategyProduceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/SysExchangeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/SysResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/SysRoleResMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/TeamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/TeamStrategy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/UserStrategyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mapper/WeChatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/src/main/resources/transaction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NIO/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NIO/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/cD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/cD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/cD3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/cD3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code13$MyMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code13$MyValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code13$Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code13$Pool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interrator/Code13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interrator/Code13.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Code26.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code26.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code32.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code13.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code41.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,87 +301,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code28.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code28.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code43.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code32.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code32.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code42.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code31.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code31.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/PrintStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="196">
+              <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code33.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code33.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/code24.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code34.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code34.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="108">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code27.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code27.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code25.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Code12.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Code29.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code29.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="81">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Code30.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code30.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-994">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -165,14 +396,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code31.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code34.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code33.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code38.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code39.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code40.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code41.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code43.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interrator/Code42.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -181,8 +412,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="286" />
+    <option name="y" value="56" />
+    <option name="width" value="1575" />
+    <option name="height" value="933" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,8 +424,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,22 +455,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AIO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaIterator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-Iterator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interrator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,9 +483,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code34">
-    <configuration name="Code27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interrator.Code27" />
+  <component name="RunManager" selected="Application.Code42">
+    <configuration name="Code38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interrator.Code38" />
       <module name="javaIterator" />
       <extension name="coverage">
         <pattern>
@@ -262,9 +493,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Code28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interrator.Code28" />
+    <configuration name="Code39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interrator.Code39" />
       <module name="javaIterator" />
       <extension name="coverage">
         <pattern>
@@ -272,9 +506,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Code31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interrator.Code31" />
+    <configuration name="Code41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interrator.Code41" />
       <module name="javaIterator" />
       <extension name="coverage">
         <pattern>
@@ -282,9 +519,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Code33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interrator.Code33" />
+    <configuration name="Code42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interrator.Code42" />
       <module name="javaIterator" />
       <extension name="coverage">
         <pattern>
@@ -292,9 +532,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Code34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interrator.Code34" />
+    <configuration name="Code43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interrator.Code43" />
       <module name="javaIterator" />
       <extension name="coverage">
         <pattern>
@@ -302,21 +545,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Code28" />
-      <item itemvalue="Application.Code27" />
-      <item itemvalue="Application.Code31" />
-      <item itemvalue="Application.Code33" />
-      <item itemvalue="Application.Code34" />
+      <item itemvalue="Application.Code38" />
+      <item itemvalue="Application.Code39" />
+      <item itemvalue="Application.Code41" />
+      <item itemvalue="Application.Code43" />
+      <item itemvalue="Application.Code42" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code34" />
-        <item itemvalue="Application.Code33" />
-        <item itemvalue="Application.Code31" />
-        <item itemvalue="Application.Code28" />
-        <item itemvalue="Application.Code27" />
+        <item itemvalue="Application.Code42" />
+        <item itemvalue="Application.Code43" />
+        <item itemvalue="Application.Code41" />
+        <item itemvalue="Application.Code39" />
+        <item itemvalue="Application.Code38" />
       </list>
     </recent_temporary>
   </component>
@@ -411,53 +657,80 @@
       <option name="project" value="LOCAL" />
       <updated>1568347687452</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="多组有序递增的数组中连续打印K个数,从大到小打印">
+      <created>1568609866925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568609866925</updated>
+    </task>
+    <task id="LOCAL-00013" summary="矩阵中能形成的最大正方形">
+      <created>1568610805109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568610805109</updated>
+    </task>
+    <task id="LOCAL-00014" summary="获取不包含当前位置的乘积,包括零">
+      <created>1568610831985</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568610831985</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9262000" />
+    <option name="totallyTimeSpent" value="14522000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32956153" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33097595" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3308026" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3308026" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="复习" />
@@ -470,7 +743,10 @@
     <MESSAGE value="小于等于给定值的最长累加和的长度" />
     <MESSAGE value="数组矩阵累加和最大" />
     <MESSAGE value="把数组中下标为偶数或者奇数的位置,对应设置为全是偶数或者全是奇数" />
-    <option name="LAST_COMMIT_MESSAGE" value="把数组中下标为偶数或者奇数的位置,对应设置为全是偶数或者全是奇数" />
+    <MESSAGE value="多组有序递增的数组中连续打印K个数,从大到小打印" />
+    <MESSAGE value="矩阵中能形成的最大正方形" />
+    <MESSAGE value="获取不包含当前位置的乘积,包括零" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取不包含当前位置的乘积,包括零" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/CglibInfoProxy.java">
@@ -536,149 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/CglibInfoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
-          <caret line="116" column="51" lean-forward="true" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/CglibInfoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
-          <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -707,27 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code31.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code30.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -760,6 +872,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code30.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/code24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code41.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interrator/Code42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
         </state>
       </provider>
     </entry>
