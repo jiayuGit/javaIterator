@@ -6,31 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="demo (6)" />
+        <module name="config-client" />
         <module name="demo (7)" />
-        <module name="demo (8)" />
-        <module name="turbine" />
-        <module name="eureka-clien-user" />
         <module name="demo (1)" />
         <module name="eureka-server1" />
-        <module name="SpringCloud" />
+        <module name="turbine" />
         <module name="turbine-amqp" />
         <module name="ribbon-consumer" />
-        <module name="feign-consumer2" />
+        <module name="demo (8)" />
         <module name="demo (2)" />
         <module name="spring-client" />
         <module name="feight-consumer" />
         <module name="feign" />
         <module name="demo (9)" />
         <module name="demo (3)" />
+        <module name="feign-consumer2" />
         <module name="demo (10)" />
-        <module name="config-client" />
         <module name="demo (4)" />
-        <module name="eureka-server" />
-        <module name="hystrix-dashboard" />
-        <module name="eureka-peer" />
-        <module name="demo (5)" />
         <module name="api-gateway" />
-        <module name="demo (6)" />
+        <module name="eureka-clien-user" />
+        <module name="eureka-peer" />
+        <module name="SpringCloud" />
+        <module name="hystrix-dashboard" />
+        <module name="demo (5)" />
         <module name="config-server" />
       </profile>
     </annotationProcessing>
@@ -68,7 +68,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloud" options="-parameters" />
       <module name="config-client" options="-parameters" />
-      <module name="config-server" options="" />
+      <module name="config-server" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (10)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
