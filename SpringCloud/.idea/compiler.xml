@@ -6,40 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="demo (6)" />
-        <module name="config-client" />
-        <module name="demo (7)" />
-        <module name="demo (1)" />
-        <module name="eureka-server1" />
-        <module name="turbine" />
-        <module name="turbine-amqp" />
-        <module name="ribbon-consumer" />
-        <module name="demo (8)" />
-        <module name="demo (2)" />
-        <module name="spring-client" />
-        <module name="feight-consumer" />
-        <module name="feign" />
-        <module name="demo (9)" />
-        <module name="demo (3)" />
-        <module name="feign-consumer2" />
-        <module name="demo (10)" />
-        <module name="demo (4)" />
         <module name="api-gateway" />
+        <module name="api-gateway-dynamic-dynamic-filter" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="demo (1)" />
+        <module name="demo (10)" />
+        <module name="demo (11)" />
+        <module name="demo (12)" />
+        <module name="demo (2)" />
+        <module name="demo (3)" />
+        <module name="demo (4)" />
+        <module name="demo (5)" />
+        <module name="demo (6)" />
+        <module name="demo (7)" />
+        <module name="demo (8)" />
+        <module name="demo (9)" />
         <module name="eureka-clien-user" />
         <module name="eureka-peer" />
-        <module name="SpringCloud" />
+        <module name="eureka-server" />
+        <module name="eureka-server1" />
+        <module name="feight-consumer" />
+        <module name="feign" />
+        <module name="feign-consumer2" />
         <module name="hystrix-dashboard" />
-        <module name="demo (5)" />
-        <module name="config-server" />
+        <module name="ribbon-consumer" />
+        <module name="spring-client" />
+        <module name="SpringCloud" />
+        <module name="turbine" />
+        <module name="turbine-amqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
+      <module name="api-gateway-dynamic-dynamic-filter" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="demo (1)" target="1.8" />
       <module name="demo (10)" target="1.8" />
+      <module name="demo (11)" target="1.8" />
+      <module name="demo (12)" target="1.8" />
       <module name="demo (2)" target="1.8" />
       <module name="demo (3)" target="1.8" />
       <module name="demo (4)" target="1.8" />

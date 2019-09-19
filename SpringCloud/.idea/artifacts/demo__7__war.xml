@@ -1,12 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="demo (7):war">
     <output-path>$PROJECT_DIR$/hystrix-dashboard/target</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <module>demo (7)</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
     <root id="archive" name="hystrix-dashboard.war">
       <element id="artifact" artifact-name="demo (7):war exploded" />
     </root>
