@@ -7,11 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="api-gateway-dynamic-dynamic-filter" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="demo (1)" />
+        <module name="demo (10)" />
+        <module name="demo (11)" />
+        <module name="demo (12)" />
         <module name="demo (2)" />
         <module name="demo (3)" />
         <module name="demo (4)" />
         <module name="demo (5)" />
+        <module name="demo (6)" />
+        <module name="demo (7)" />
+        <module name="demo (8)" />
+        <module name="demo (9)" />
         <module name="eureka-clien-user" />
         <module name="eureka-peer" />
         <module name="eureka-server" />
@@ -29,11 +39,21 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
+      <module name="api-gateway-dynamic-dynamic-filter" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="demo (1)" target="1.8" />
+      <module name="demo (10)" target="1.8" />
+      <module name="demo (11)" target="1.8" />
+      <module name="demo (12)" target="1.8" />
       <module name="demo (2)" target="1.8" />
       <module name="demo (3)" target="1.8" />
       <module name="demo (4)" target="1.8" />
       <module name="demo (5)" target="1.8" />
+      <module name="demo (6)" target="1.8" />
+      <module name="demo (7)" target="1.8" />
+      <module name="demo (8)" target="1.8" />
+      <module name="demo (9)" target="1.8" />
       <module name="eureka-clien-user" target="1.8" />
       <module name="eureka-clien-user1" target="1.8" />
       <module name="eureka-peer" target="1.8" />
@@ -53,6 +73,17 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloud" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (10)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="demo (3)" options="-parameters" />
+      <module name="demo (4)" options="-parameters" />
+      <module name="demo (5)" options="-parameters" />
+      <module name="demo (6)" options="-parameters" />
+      <module name="demo (8)" options="-parameters" />
+      <module name="demo (9)" options="-parameters" />
       <module name="eureka-peer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server1" options="-parameters" />
