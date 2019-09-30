@@ -9,6 +9,11 @@ public class Code53 {
         char c = getChar("fjfdhd112uii");
     }
 
+    /**
+     * 最后出现没有重复的数
+     * @param s
+     * @return
+     */
     private static char getChar(String s) {
         Map<Integer,Integer> map = new HashMap<>();
         char[] cs = s.toCharArray();
