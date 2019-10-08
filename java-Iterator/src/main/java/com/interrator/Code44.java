@@ -4,8 +4,8 @@ import java.util.*;
 
 
 public class Code44 {
-    public static void main(String[] ags) {
-               for(int i =0;i<10;i++)
+//    public static void main(String[] ags) {
+//               for(int i =0;i<10;i++)
     /**
      * 数组逆序差值和
      * 时间复杂度O(N^2)
