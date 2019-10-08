@@ -3,11 +3,7 @@ package com.interrator;
 public class Code55 {
     public static void main(String[] ags) {
         int[] arr = new int[]{5,1,2};
-        pathsToDitans(arr);
-        for (int i:arr
-             ) {
-            System.out.println(i);
-        }
+        //pathsToDitans(arr);
         //pathsToDitans(arr);
         System.out.println(arr);
         //arr = new int[]{3,2,5};
