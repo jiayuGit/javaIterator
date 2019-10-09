@@ -1,7 +1,21 @@
 package com.interrator;
 
+import java.util.Scanner;
+
 public class Code45 {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int len = in.nextInt();
+        int [][] arr = new int[len][4];
+        for(int i = 0;i<len;i++){
+            for (int j = 0;j<arr[i].length;j++){
+                arr[i][j]=in.nextInt();
+            }
+        }
+        for (int i = 0;i<len;i++){
+            int s =getMin(arr[i][0],arr[i][1],arr[i][2],arr[i][3],0);
+            System.out.println(s);
+        }
         System.out.println(gcd(102, 41));
         System.out.println(getZeroNum(1000000000));
         int a = 24;
@@ -10,6 +24,19 @@ public class Code45 {
         System.out.println(a);
         System.out.println(getArrAnd("123456", "1123446"));
     }
+
+    private static int getMin(int A, int B, int p, int q,int sum) {
+
+        if(B<=A+p){
+            return sum+1;
+        }
+        int min = getMin(A+p,B,p,q,sum+1);
+        min = Math.min(min,getMin(A,B,p*q,q,sum+1));
+        return min;
+    }
+
+
+
 
     /**
      * 字符的公共连续子序列
@@ -44,7 +71,7 @@ public class Code45 {
     }
 
     /**
-     * 1-N中有多少个
+     * 1-N中有多少个0
      * @param n
      * @return
      */
