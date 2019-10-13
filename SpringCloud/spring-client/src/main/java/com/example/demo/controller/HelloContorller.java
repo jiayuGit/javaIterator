@@ -13,7 +13,7 @@ public class HelloContorller {
         @RequestMapping("/hello")
     public String index() throws InterruptedException {
         String instance = client.description();
-        double time = Math.random()*3000;
+        double time = Math.random()*30;
         Thread.sleep((long) time);
         System.out.println("调用了 时间->"+time);
         return "hello word"+instance;
