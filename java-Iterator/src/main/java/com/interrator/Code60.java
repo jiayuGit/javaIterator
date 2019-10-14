@@ -3,6 +3,7 @@ package com.interrator;
 public class Code60 {
     public static void main(String[] agrs){
         System.out.println(getMin(new int[]{5, 6, 7, 8, 9, 1, 2, 3}));
+
     }
     /**
      * 二分查找断层有序数组的最小值
