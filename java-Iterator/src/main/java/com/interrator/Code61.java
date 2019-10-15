@@ -24,7 +24,7 @@ public class Code61 {
                 int next = getIndexArr(arr, index-1);//计算下坡的长度
                 int rcands= rightCands(index-1, next++);//计算下坡的前N项和
                 int rbase = next - index + 1;
-                res+= rcands+(rbase>lbase?-lbase:-rbase);//取上坡和下坡中高的一边为点
+                res+= rcands+(rbase>lbase?-lbase:-rbase);//取上坡和下坡中高的一边为点 因为两个坡都用了最高的哪个的值,减去没有被采用点的高度值
                 lbase=1;
                 index=next;
             }else {
